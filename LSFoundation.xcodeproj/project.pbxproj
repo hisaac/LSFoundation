@@ -21,6 +21,12 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		F269265E25894192008128FB /* TimeZone+LSFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F269265D25894192008128FB /* TimeZone+LSFoundation.swift */; };
+		F2EB17E2258A425A00D1AB20 /* Sequence+LSFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EB17E1258A425A00D1AB20 /* Sequence+LSFoundation.swift */; };
+		F2EB17E8258A47B400D1AB20 /* Numeric+LSFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EB17E7258A47B400D1AB20 /* Numeric+LSFoundation.swift */; };
+		F2EB17FE258A4FBC00D1AB20 /* Bool+LSFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EB17FD258A4FBC00D1AB20 /* Bool+LSFoundation.swift */; };
+		F2EB1810258A55CC00D1AB20 /* Date+LSFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EB180F258A55CC00D1AB20 /* Date+LSFoundation.swift */; };
+		F2EB1816258A561300D1AB20 /* URL+LSFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EB1815258A561300D1AB20 /* URL+LSFoundation.swift */; };
 		OBJ_23 /* LSFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* LSFoundation.swift */; };
 		OBJ_30 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_41 /* LSFoundationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* LSFoundationTests.swift */; };
@@ -50,6 +56,13 @@
 		4A62F18D2586741900661881 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
 		4A62F18E2586749700661881 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		4AFB7BFF258672F600005520 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		F269265D25894192008128FB /* TimeZone+LSFoundation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeZone+LSFoundation.swift"; sourceTree = "<group>"; };
+		F2EB17E1258A425A00D1AB20 /* Sequence+LSFoundation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence+LSFoundation.swift"; sourceTree = "<group>"; };
+		F2EB17E7258A47B400D1AB20 /* Numeric+LSFoundation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Numeric+LSFoundation.swift"; sourceTree = "<group>"; };
+		F2EB17FD258A4FBC00D1AB20 /* Bool+LSFoundation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bool+LSFoundation.swift"; sourceTree = "<group>"; };
+		F2EB180F258A55CC00D1AB20 /* Date+LSFoundation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+LSFoundation.swift"; sourceTree = "<group>"; };
+		F2EB1815258A561300D1AB20 /* URL+LSFoundation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+LSFoundation.swift"; sourceTree = "<group>"; };
+		F2EB181B258A56ED00D1AB20 /* LSFoundation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LSFoundation.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		"LSFoundation::LSFoundation::Product" /* LSFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LSFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"LSFoundation::LSFoundationTests::Product" /* LSFoundationTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = LSFoundationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_12 /* LSFoundationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSFoundationTests.swift; sourceTree = "<group>"; };
@@ -108,6 +121,7 @@
 		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
+				F2EB181B258A56ED00D1AB20 /* LSFoundation.playground */,
 				OBJ_17 /* README.md */,
 				4A62F18D2586741900661881 /* CHANGELOG.md */,
 				4A62F18E2586749700661881 /* LICENSE */,
@@ -132,6 +146,12 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_9 /* LSFoundation.swift */,
+				F269265D25894192008128FB /* TimeZone+LSFoundation.swift */,
+				F2EB17E1258A425A00D1AB20 /* Sequence+LSFoundation.swift */,
+				F2EB17E7258A47B400D1AB20 /* Numeric+LSFoundation.swift */,
+				F2EB17FD258A4FBC00D1AB20 /* Bool+LSFoundation.swift */,
+				F2EB180F258A55CC00D1AB20 /* Date+LSFoundation.swift */,
+				F2EB1815258A561300D1AB20 /* URL+LSFoundation.swift */,
 			);
 			name = LSFoundation;
 			path = Sources/LSFoundation;
@@ -198,6 +218,11 @@
 				LastSwiftMigration = 9999;
 				LastUpgradeCheck = 9999;
 				ORGANIZATIONNAME = Levelsoft;
+				TargetAttributes = {
+					"LSFoundation::LSFoundation" = {
+						LastSwiftMigration = 1230;
+					};
+				};
 			};
 			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "LSFoundation" */;
 			compatibilityVersion = "Xcode 12.0";
@@ -263,7 +288,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				F2EB17E2258A425A00D1AB20 /* Sequence+LSFoundation.swift in Sources */,
+				F2EB17E8258A47B400D1AB20 /* Numeric+LSFoundation.swift in Sources */,
 				OBJ_23 /* LSFoundation.swift in Sources */,
+				F2EB1816258A561300D1AB20 /* URL+LSFoundation.swift in Sources */,
+				F269265E25894192008128FB /* TimeZone+LSFoundation.swift in Sources */,
+				F2EB17FE258A4FBC00D1AB20 /* Bool+LSFoundation.swift in Sources */,
+				F2EB1810258A55CC00D1AB20 /* Date+LSFoundation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +334,8 @@
 		OBJ_20 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -323,6 +356,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGET_NAME = LSFoundation;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
@@ -333,6 +367,8 @@
 		OBJ_21 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
