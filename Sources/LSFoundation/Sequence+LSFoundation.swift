@@ -65,6 +65,17 @@ extension Sequence {
 	}
 }
 
+extension Sequence where Element: Hashable {
+
+	/// Returns a new Array containing all of the unique elements within the original Sequence
+	///
+	/// Note: This does not retain ordering
+	/// - Returns: A new Array containing all of the unique elements
+	public func uniqueElements() -> [Element] {
+		return Array(Set(self))
+	}
+}
+
 extension Sequence where Element: Numeric {
 
 	/// The sum of all elements in the sequence
