@@ -22,6 +22,7 @@
 
 /* Begin PBXBuildFile section */
 		F269265E25894192008128FB /* TimeZone+LSFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F269265D25894192008128FB /* TimeZone+LSFoundation.swift */; };
+		F26CE9A3258AB349008EFB64 /* Data+LSFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26CE9A2258AB349008EFB64 /* Data+LSFoundation.swift */; };
 		F2EB17E2258A425A00D1AB20 /* Sequence+LSFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EB17E1258A425A00D1AB20 /* Sequence+LSFoundation.swift */; };
 		F2EB17E8258A47B400D1AB20 /* Numeric+LSFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EB17E7258A47B400D1AB20 /* Numeric+LSFoundation.swift */; };
 		F2EB17FE258A4FBC00D1AB20 /* Bool+LSFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EB17FD258A4FBC00D1AB20 /* Bool+LSFoundation.swift */; };
@@ -57,6 +58,7 @@
 		4A62F18E2586749700661881 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		4AFB7BFF258672F600005520 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		F269265D25894192008128FB /* TimeZone+LSFoundation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeZone+LSFoundation.swift"; sourceTree = "<group>"; };
+		F26CE9A2258AB349008EFB64 /* Data+LSFoundation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+LSFoundation.swift"; sourceTree = "<group>"; };
 		F2EB17E1258A425A00D1AB20 /* Sequence+LSFoundation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence+LSFoundation.swift"; sourceTree = "<group>"; };
 		F2EB17E7258A47B400D1AB20 /* Numeric+LSFoundation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Numeric+LSFoundation.swift"; sourceTree = "<group>"; };
 		F2EB17FD258A4FBC00D1AB20 /* Bool+LSFoundation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bool+LSFoundation.swift"; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 				OBJ_9 /* LSFoundation.swift */,
 				F269265D25894192008128FB /* TimeZone+LSFoundation.swift */,
 				F2EB17E1258A425A00D1AB20 /* Sequence+LSFoundation.swift */,
+				F26CE9A2258AB349008EFB64 /* Data+LSFoundation.swift */,
 				F2EB17E7258A47B400D1AB20 /* Numeric+LSFoundation.swift */,
 				F2EB17FD258A4FBC00D1AB20 /* Bool+LSFoundation.swift */,
 				F2EB180F258A55CC00D1AB20 /* Date+LSFoundation.swift */,
@@ -293,6 +296,7 @@
 				OBJ_23 /* LSFoundation.swift in Sources */,
 				F2EB1816258A561300D1AB20 /* URL+LSFoundation.swift in Sources */,
 				F269265E25894192008128FB /* TimeZone+LSFoundation.swift in Sources */,
+				F26CE9A3258AB349008EFB64 /* Data+LSFoundation.swift in Sources */,
 				F2EB17FE258A4FBC00D1AB20 /* Bool+LSFoundation.swift in Sources */,
 				F2EB1810258A55CC00D1AB20 /* Date+LSFoundation.swift in Sources */,
 			);
