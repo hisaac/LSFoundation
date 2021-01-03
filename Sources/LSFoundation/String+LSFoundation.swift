@@ -75,4 +75,42 @@ extension String {
 		}
 		return true
 	}
+
+	/// Checks if the current string ends with any of the given strings
+	/// - Parameter other: The other strings to check for
+	/// - Returns: True if the current string ends with any of the given strings
+	public func endsWithAny<T>(of other: T...) -> Bool where T: StringProtocol {
+		return endsWithAny(of: other)
+	}
+
+	/// Checks if the current string ends with any of the given strings
+	/// - Parameter other: The other strings to check for
+	/// - Returns: True if the current string ends with any of the given strings
+	public func endsWithAny<T>(of other: [T]) -> Bool where T: StringProtocol {
+		for element in other {
+			if self.hasSuffix(element) {
+				return true
+			}
+		}
+		return false
+	}
+
+	/// Checks if the current string starts with any of the given strings
+	/// - Parameter other: The other strings to check for
+	/// - Returns: True if the current string starts with any of the given strings
+	public func startsWithAny<T>(of other: T...) -> Bool where T: StringProtocol {
+		return endsWithAny(of: other)
+	}
+
+	/// Checks if the current string starts with any of the given strings
+	/// - Parameter other: The other strings to check for
+	/// - Returns: True if the current string starts with any of the given strings
+	public func startsWithAny<T>(of other: [T]) -> Bool where T: StringProtocol {
+		for element in other {
+			if self.hasPrefix(element) {
+				return true
+			}
+		}
+		return false
+	}
 }
