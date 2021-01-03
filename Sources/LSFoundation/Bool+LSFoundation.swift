@@ -9,7 +9,9 @@ extension Bool {
 
 	/// Returns a new value that is the toggled version of the current `Bool`
 	public var toggled: Bool {
-		return !self
+		var mutableSelf = self
+		mutableSelf.toggle()
+		return mutableSelf
 	}
 
 	/// A more expressive way to check truthfulness

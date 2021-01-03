@@ -83,11 +83,3 @@ extension Sequence where Element: Numeric {
 		return self.reduce(0, +)
 	}
 }
-
-extension Array where Element: BinaryFloatingPoint {
-
-	/// The average of all elements in the array
-	public var average: Element {
-		return sum / Element(self.count)
-	}
-}
