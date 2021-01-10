@@ -7,7 +7,6 @@ opt_in_rules:
   - file_header
   - first_where
   - implicitly_unwrapped_optional
-  - no_extension_access_modifier
   - number_separator
   - operator_usage_whitespace
   - redundant_nil_coalescing

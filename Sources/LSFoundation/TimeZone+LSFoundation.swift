@@ -5,10 +5,10 @@
 
 import Foundation
 
-extension TimeZone {
+public extension TimeZone {
 
 	/// Convenience initializer for UTC time
-	public static var UTC: TimeZone? {
+	static var UTC: TimeZone? {
 		return TimeZone(identifier: "UTC")
 	}
 }

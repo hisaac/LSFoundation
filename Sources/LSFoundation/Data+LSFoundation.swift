@@ -5,7 +5,7 @@
 
 import Foundation
 
-extension Data {
+public extension Data {
 
 	/// Returns `Data` converted to hexidecimal string format
 	var hexString: String {
