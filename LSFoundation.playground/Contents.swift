@@ -3,9 +3,6 @@
 import Foundation
 import LSFoundation
 
-let now = Date.now
-
-let thing: CGFloat = 1
-let thing2: Int = 2
-
-let stuff = thing * thing2
+let today = Date.now
+let dayBefore = today.dayBefore
+let dayAfter = today.dayAfter

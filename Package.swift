@@ -12,9 +12,6 @@ let package = Package(
 	targets: [
 		.target(
 			name: "LSFoundation",
-			dependencies: []),
-		.testTarget(
-			name: "LSFoundationTests",
-			dependencies: ["LSFoundation"])
+			dependencies: [])
 	]
 )

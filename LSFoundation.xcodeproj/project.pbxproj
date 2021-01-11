@@ -6,21 +6,17 @@
 	objectVersion = 54;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		"LSFoundation::LSFoundationPackageTests::ProductTarget" /* LSFoundationPackageTests */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = OBJ_32 /* Build configuration list for PBXAggregateTarget "LSFoundationPackageTests" */;
-			buildPhases = (
-			);
-			dependencies = (
-				OBJ_35 /* PBXTargetDependency */,
-			);
-			name = LSFoundationPackageTests;
-			productName = LSFoundationPackageTests;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
+		F22843ED25AC01D600742273 /* TimeZone+LSFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F269265D25894192008128FB /* TimeZone+LSFoundation.swift */; };
+		F22843EE25AC01D600742273 /* Bool+LSFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EB17FD258A4FBC00D1AB20 /* Bool+LSFoundation.swift */; };
+		F22843EF25AC01D600742273 /* Array+LSFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB40BE25ABAC45003851E6 /* Array+LSFoundation.swift */; };
+		F22843F025AC01D600742273 /* Date+LSFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EB180F258A55CC00D1AB20 /* Date+LSFoundation.swift */; };
+		F22843F125AC01D600742273 /* Numeric+LSFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EB17E7258A47B400D1AB20 /* Numeric+LSFoundation.swift */; };
+		F22843F225AC01D600742273 /* Sequence+LSFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EB17E1258A425A00D1AB20 /* Sequence+LSFoundation.swift */; };
+		F22843F325AC01D600742273 /* String+LSFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB40BF25ABAC45003851E6 /* String+LSFoundation.swift */; };
+		F22843F425AC01D600742273 /* LSFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* LSFoundation.swift */; };
+		F22843F525AC01D600742273 /* URL+LSFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EB1815258A561300D1AB20 /* URL+LSFoundation.swift */; };
+		F22843F625AC01D600742273 /* Data+LSFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26CE9A2258AB349008EFB64 /* Data+LSFoundation.swift */; };
 		F269265E25894192008128FB /* TimeZone+LSFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F269265D25894192008128FB /* TimeZone+LSFoundation.swift */; };
 		F26CE9A3258AB349008EFB64 /* Data+LSFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26CE9A2258AB349008EFB64 /* Data+LSFoundation.swift */; };
 		F2EB17E2258A425A00D1AB20 /* Sequence+LSFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EB17E1258A425A00D1AB20 /* Sequence+LSFoundation.swift */; };
@@ -28,29 +24,24 @@
 		F2EB17FE258A4FBC00D1AB20 /* Bool+LSFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EB17FD258A4FBC00D1AB20 /* Bool+LSFoundation.swift */; };
 		F2EB1810258A55CC00D1AB20 /* Date+LSFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EB180F258A55CC00D1AB20 /* Date+LSFoundation.swift */; };
 		F2EB1816258A561300D1AB20 /* URL+LSFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EB1815258A561300D1AB20 /* URL+LSFoundation.swift */; };
+		F2FB40C125ABAC45003851E6 /* Array+LSFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB40BE25ABAC45003851E6 /* Array+LSFoundation.swift */; };
+		F2FB40C225ABAC45003851E6 /* String+LSFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB40BF25ABAC45003851E6 /* String+LSFoundation.swift */; };
+		F2FB410725AC0145003851E6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB410625AC0145003851E6 /* main.swift */; };
 		OBJ_23 /* LSFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* LSFoundation.swift */; };
 		OBJ_30 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
-		OBJ_41 /* LSFoundationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* LSFoundationTests.swift */; };
-		OBJ_42 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* XCTestManifests.swift */; };
-		OBJ_44 /* LSFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "LSFoundation::LSFoundation::Product" /* LSFoundation.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		4A89E7F0258672840074996A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "LSFoundation::LSFoundation";
-			remoteInfo = LSFoundation;
+/* Begin PBXCopyFilesBuildPhase section */
+		F2FB410225AC0145003851E6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
 		};
-		4A89E7F3258672860074996A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "LSFoundation::LSFoundationTests";
-			remoteInfo = LSFoundationTests;
-		};
-/* End PBXContainerItemProxy section */
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4A62F1862586735A00661881 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
@@ -65,16 +56,24 @@
 		F2EB180F258A55CC00D1AB20 /* Date+LSFoundation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+LSFoundation.swift"; sourceTree = "<group>"; };
 		F2EB1815258A561300D1AB20 /* URL+LSFoundation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+LSFoundation.swift"; sourceTree = "<group>"; };
 		F2EB181B258A56ED00D1AB20 /* LSFoundation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LSFoundation.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F2FB40BE25ABAC45003851E6 /* Array+LSFoundation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+LSFoundation.swift"; sourceTree = "<group>"; };
+		F2FB40BF25ABAC45003851E6 /* String+LSFoundation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+LSFoundation.swift"; sourceTree = "<group>"; };
+		F2FB410425AC0145003851E6 /* LSFoundationCLI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LSFoundationCLI; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2FB410625AC0145003851E6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		"LSFoundation::LSFoundation::Product" /* LSFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LSFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"LSFoundation::LSFoundationTests::Product" /* LSFoundationTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = LSFoundationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_12 /* LSFoundationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSFoundationTests.swift; sourceTree = "<group>"; };
-		OBJ_13 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
 		OBJ_17 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		OBJ_9 /* LSFoundation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSFoundation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F2FB410125AC0145003851E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		OBJ_24 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
@@ -82,40 +81,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_43 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_44 /* LSFoundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		OBJ_10 /* Tests */ = {
+		F2FB40DB25ABBFA2003851E6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_11 /* LSFoundationTests */,
 			);
-			path = Tests;
-			sourceTree = SOURCE_ROOT;
+			name = Frameworks;
+			sourceTree = "<group>";
 		};
-		OBJ_11 /* LSFoundationTests */ = {
+		F2FB410525AC0145003851E6 /* LSFoundationCLI */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_12 /* LSFoundationTests.swift */,
-				OBJ_13 /* XCTestManifests.swift */,
+				F2FB410625AC0145003851E6 /* main.swift */,
 			);
-			name = LSFoundationTests;
-			path = Tests/LSFoundationTests;
-			sourceTree = SOURCE_ROOT;
+			path = LSFoundationCLI;
+			sourceTree = "<group>";
 		};
 		OBJ_14 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				"LSFoundation::LSFoundationTests::Product" /* LSFoundationTests.xctest */,
 				"LSFoundation::LSFoundation::Product" /* LSFoundation.framework */,
+				F2FB410425AC0145003851E6 /* LSFoundationCLI */,
 			);
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
@@ -131,8 +119,9 @@
 				4A62F1862586735A00661881 /* .swiftlint.yml */,
 				4AFB7BFF258672F600005520 /* .gitignore */,
 				OBJ_7 /* Sources */,
-				OBJ_10 /* Tests */,
+				F2FB410525AC0145003851E6 /* LSFoundationCLI */,
 				OBJ_14 /* Products */,
+				F2FB40DB25ABBFA2003851E6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -148,12 +137,14 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_9 /* LSFoundation.swift */,
-				F269265D25894192008128FB /* TimeZone+LSFoundation.swift */,
-				F2EB17E1258A425A00D1AB20 /* Sequence+LSFoundation.swift */,
-				F26CE9A2258AB349008EFB64 /* Data+LSFoundation.swift */,
-				F2EB17E7258A47B400D1AB20 /* Numeric+LSFoundation.swift */,
+				F2FB40BE25ABAC45003851E6 /* Array+LSFoundation.swift */,
 				F2EB17FD258A4FBC00D1AB20 /* Bool+LSFoundation.swift */,
+				F26CE9A2258AB349008EFB64 /* Data+LSFoundation.swift */,
 				F2EB180F258A55CC00D1AB20 /* Date+LSFoundation.swift */,
+				F2EB17E7258A47B400D1AB20 /* Numeric+LSFoundation.swift */,
+				F2EB17E1258A425A00D1AB20 /* Sequence+LSFoundation.swift */,
+				F2FB40BF25ABAC45003851E6 /* String+LSFoundation.swift */,
+				F269265D25894192008128FB /* TimeZone+LSFoundation.swift */,
 				F2EB1815258A561300D1AB20 /* URL+LSFoundation.swift */,
 			);
 			name = LSFoundation;
@@ -163,6 +154,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		F2FB410325AC0145003851E6 /* LSFoundationCLI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2FB410825AC0145003851E6 /* Build configuration list for PBXNativeTarget "LSFoundationCLI" */;
+			buildPhases = (
+				F2FB410025AC0145003851E6 /* Sources */,
+				F2FB410125AC0145003851E6 /* Frameworks */,
+				F2FB410225AC0145003851E6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LSFoundationCLI;
+			productName = LSFoundationCLI;
+			productReference = F2FB410425AC0145003851E6 /* LSFoundationCLI */;
+			productType = "com.apple.product-type.tool";
+		};
 		"LSFoundation::LSFoundation" /* LSFoundation */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = OBJ_19 /* Build configuration list for PBXNativeTarget "LSFoundation" */;
@@ -179,24 +187,6 @@
 			productName = LSFoundation;
 			productReference = "LSFoundation::LSFoundation::Product" /* LSFoundation.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		"LSFoundation::LSFoundationTests" /* LSFoundationTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_37 /* Build configuration list for PBXNativeTarget "LSFoundationTests" */;
-			buildPhases = (
-				4A62F18C258673D300661881 /* Run SwiftLint */,
-				OBJ_40 /* Sources */,
-				OBJ_43 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				OBJ_45 /* PBXTargetDependency */,
-			);
-			name = LSFoundationTests;
-			productName = LSFoundationTests;
-			productReference = "LSFoundation::LSFoundationTests::Product" /* LSFoundationTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		"LSFoundation::SwiftPMPackageDescription" /* LSFoundationPackageDescription */ = {
 			isa = PBXNativeTarget;
@@ -219,9 +209,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftMigration = 9999;
+				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 9999;
 				ORGANIZATIONNAME = Levelsoft;
 				TargetAttributes = {
+					F2FB410325AC0145003851E6 = {
+						CreatedOnToolsVersion = 12.3;
+					};
 					"LSFoundation::LSFoundation" = {
 						LastSwiftMigration = 1230;
 					};
@@ -241,8 +235,7 @@
 			targets = (
 				"LSFoundation::LSFoundation" /* LSFoundation */,
 				"LSFoundation::SwiftPMPackageDescription" /* LSFoundationPackageDescription */,
-				"LSFoundation::LSFoundationPackageTests::ProductTarget" /* LSFoundationPackageTests */,
-				"LSFoundation::LSFoundationTests" /* LSFoundationTests */,
+				F2FB410325AC0145003851E6 /* LSFoundationCLI */,
 			);
 		};
 /* End PBXProject section */
@@ -266,27 +259,27 @@
 			shellPath = /bin/sh;
 			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
-		4A62F18C258673D300661881 /* Run SwiftLint */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Run SwiftLint";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F2FB410025AC0145003851E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22843ED25AC01D600742273 /* TimeZone+LSFoundation.swift in Sources */,
+				F22843F125AC01D600742273 /* Numeric+LSFoundation.swift in Sources */,
+				F22843F425AC01D600742273 /* LSFoundation.swift in Sources */,
+				F2FB410725AC0145003851E6 /* main.swift in Sources */,
+				F22843F025AC01D600742273 /* Date+LSFoundation.swift in Sources */,
+				F22843F325AC01D600742273 /* String+LSFoundation.swift in Sources */,
+				F22843F625AC01D600742273 /* Data+LSFoundation.swift in Sources */,
+				F22843F225AC01D600742273 /* Sequence+LSFoundation.swift in Sources */,
+				F22843F525AC01D600742273 /* URL+LSFoundation.swift in Sources */,
+				F22843EE25AC01D600742273 /* Bool+LSFoundation.swift in Sources */,
+				F22843EF25AC01D600742273 /* Array+LSFoundation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		OBJ_22 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
@@ -295,10 +288,12 @@
 				F2EB17E8258A47B400D1AB20 /* Numeric+LSFoundation.swift in Sources */,
 				OBJ_23 /* LSFoundation.swift in Sources */,
 				F2EB1816258A561300D1AB20 /* URL+LSFoundation.swift in Sources */,
+				F2FB40C225ABAC45003851E6 /* String+LSFoundation.swift in Sources */,
 				F269265E25894192008128FB /* TimeZone+LSFoundation.swift in Sources */,
 				F26CE9A3258AB349008EFB64 /* Data+LSFoundation.swift in Sources */,
 				F2EB17FE258A4FBC00D1AB20 /* Bool+LSFoundation.swift in Sources */,
 				F2EB1810258A55CC00D1AB20 /* Date+LSFoundation.swift in Sources */,
+				F2FB40C125ABAC45003851E6 /* Array+LSFoundation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,31 +305,122 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_40 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_41 /* LSFoundationTests.swift in Sources */,
-				OBJ_42 /* XCTestManifests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		OBJ_35 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "LSFoundation::LSFoundationTests" /* LSFoundationTests */;
-			targetProxy = 4A89E7F3258672860074996A /* PBXContainerItemProxy */;
-		};
-		OBJ_45 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "LSFoundation::LSFoundation" /* LSFoundation */;
-			targetProxy = 4A89E7F0258672840074996A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
+		F2FB410925AC0145003851E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F2J52QJQ9Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F2FB410A25AC0145003851E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = F2J52QJQ9Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		OBJ_20 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -445,76 +531,6 @@
 			};
 			name = Debug;
 		};
-		OBJ_33 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Debug;
-		};
-		OBJ_34 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Release;
-		};
-		OBJ_38 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = LSFoundation.xcodeproj/LSFoundationTests_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@loader_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 5.0;
-				TARGET_NAME = LSFoundationTests;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Debug;
-		};
-		OBJ_39 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = LSFoundation.xcodeproj/LSFoundationTests_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@loader_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 5.0;
-				TARGET_NAME = LSFoundationTests;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Release;
-		};
 		OBJ_4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -543,6 +559,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F2FB410825AC0145003851E6 /* Build configuration list for PBXNativeTarget "LSFoundationCLI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2FB410925AC0145003851E6 /* Debug */,
+				F2FB410A25AC0145003851E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		OBJ_19 /* Build configuration list for PBXNativeTarget "LSFoundation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -566,24 +591,6 @@
 			buildConfigurations = (
 				OBJ_27 /* Debug */,
 				OBJ_28 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		OBJ_32 /* Build configuration list for PBXAggregateTarget "LSFoundationPackageTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_33 /* Debug */,
-				OBJ_34 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		OBJ_37 /* Build configuration list for PBXNativeTarget "LSFoundationTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_38 /* Debug */,
-				OBJ_39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
