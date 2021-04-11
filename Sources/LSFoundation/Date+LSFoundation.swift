@@ -7,6 +7,9 @@ import Foundation
 
 public extension Date {
 
+	/// A more correct name for the `Date` type
+	typealias Moment = Date
+
 	/// A more expressive way to get the current date/time
 	static var now: Date {
 		Date()
